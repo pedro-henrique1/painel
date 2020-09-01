@@ -1,12 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Login from "./page/login/Index";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>.</h1>
-    </div>
-  );
+  return <Login />;
 }
 
 export default App;
