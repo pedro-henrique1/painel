@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+.layout {
+  width: 89rem;
+  height: 57rem;
+  display: flex;
+  background-color: #f1f3f8;
+  justify-items: center;
+  border-radius: 15px;
+  margin-top: -9rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.Menu {
+  width: 14rem;
+  height: 54rem;
+  background-color: #d6e0f0;
+  margin: 1rem 0 0 1rem;
+  border-radius: 2rem;
+}
+
+.Menu ul {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.Menu ul img {
+  position: absolute;
+  margin: 0 0 0 -1rem;
+}
+
+.Menu ul li {
+  margin: 2.4rem 0 0 1.7rem;
+  justify-items: center;
+  align-items: center;
+}
+.orders {
+  margin: 4ch 0 0 -1rem !important;
+}
+
+.analytic {
+  margin: 2% 0 0 -1rem !important;
+}
+
+.Premium {
+  width: 13rem;
+  height: 20rem;
+  margin: 14rem 0 0 1ch;
+  border-radius: 2rem;
+  background-color: #fbecec;
+  display: flex;
+  /* color: #eee; */
+}
+
+.subtitle {
+  margin: 14rem 0 0 7px;
+}
+
+.buttonUpdate {
+  position: absolute;
+  margin: 34ch 0 0 3ch;
+  width: 10rem;
+  height: 4ch;
+  border-radius: 10px;
+  background-color: #f67280;
+  border-color: #f67280;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.title {
+  display: flex;
+  margin: 2rem 0 0 2rem;
+  font-size: 1.8rem;
+}

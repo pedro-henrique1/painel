@@ -1,9 +1,15 @@
 import React from "react";
 import "./App.css";
-import Login from "./page/login/Index";
+import { BrowserRouter } from "react-router-dom";
+
+import Login from "./page/Home/Index";
 
 function App() {
-  return <Login />;
+  return (
+    <BrowserRouter>
+      <Login />
+    </BrowserRouter>
+  );
 }
 
 export default App;

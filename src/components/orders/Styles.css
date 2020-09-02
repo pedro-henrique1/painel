@@ -1,0 +1,30 @@
+.width {
+  width: 21rem;
+  height: 11rem;
+  max-width: 23rem;
+  background-color: #fff;
+  border-radius: 5ch;
+  margin: 6rem 0 0 -15ch;
+}
+
+.p1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 11ch;
+}
+
+.width h1 {
+  margin: 1rem 0 0 2ch;
+  font-size: 2.3rem;
+}
+
+.width img {
+  float: right;
+  margin: -3ch 6ch 0 0;
+}
+
+.width p {
+  margin: 4ch 0 0 3ch;
+  font-size: 1.3rem;
+  color: #4b5d67;
+}

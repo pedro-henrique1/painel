@@ -1,14 +1,15 @@
 import React from "react";
-import { BrowserRouter, Route, Redirect } from "react-router-dom";
-import Home from "./page/Index";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-function Routes() {
-  return (
-    <BrowserRouter>
-      <Route path="/home" exact component={Home} />
-      <Redirect to="/home" />
-    </BrowserRouter>
+// import Page from "./page/Index";
+import Home from "./page/Home/Index";
+
+function Rotas() {
+  reactDom.render(
+    <Router>
+      <Route path="/home" component={Home}></Route>
+    </Router>
   );
 }
 
-export default Routes;
+export default Rotas;
