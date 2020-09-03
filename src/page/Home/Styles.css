@@ -48,7 +48,6 @@
   border-radius: 2rem;
   background-color: #fbecec;
   display: flex;
-  /* color: #eee; */
 }
 
 .subtitle {
@@ -71,4 +70,45 @@
   display: flex;
   margin: 2rem 0 0 2rem;
   font-size: 1.8rem;
+}
+
+.grafico {
+  display: flex;
+  float: left;
+  position: absolute;
+  margin: 18rem 0 0 17rem;
+  font-size: 0.9rem;
+}
+
+.EarningsMonth {
+  width: 19rem;
+  height: 15rem;
+  background-color: #fff;
+  margin: 4rem 0 0 -13rem;
+  border-radius: 2rem;
+}
+
+.EarningsMonth h1 {
+  font-size: 2ch;
+  margin: 2ch 0 0 2ch;
+  color: #9db2d3;
+}
+
+.EarningsMonth p {
+  display: flex;
+  margin: 1ch 0 0 2.1ch;
+  font-size: 2.2rem;
+}
+
+.simbolo {
+  display: flex !important;
+  margin: 1pc 0 0 1ch !important;
+  position: absolute !important;
+}
+
+.renda {
+  width: 19rem;
+  height: 18rem;
+  position: absolute;
+  margin: -9rem 0 0 0;
 }

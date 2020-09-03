@@ -7,7 +7,7 @@ function Orders(props) {
     <div className="p1">
       <div className="width">
         <h1>{props.title}</h1>
-        <div className="image">
+        <div className={props.className}>
           <img src={props.image} alt="" />
         </div>
         <p>{props.text}</p>

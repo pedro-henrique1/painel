@@ -15,12 +15,12 @@
 
 .width h1 {
   margin: 1rem 0 0 2ch;
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 .image {
   width: 4rem;
-  background-color: #fbd46d;
+  background-color: #ffe277;
   height: 4rem;
   float: right;
   margin: -4ch 3ch 0 0;
@@ -37,4 +37,12 @@
   margin: 4ch 0 0 3ch;
   font-size: 1.3rem;
   color: #4b5d67;
+}
+
+.product {
+  background-color: #a6dcef;
+}
+
+.email {
+  background-color: #a2de96;
 }

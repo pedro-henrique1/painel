@@ -1,0 +1,5 @@
+.graficoStyle {
+  display: flex;
+  margin: -10rem 0 0 0 !important;
+  z-index: 999;
+}
