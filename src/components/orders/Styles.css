@@ -18,9 +18,19 @@
   font-size: 2.3rem;
 }
 
-.width img {
+.image {
+  width: 4rem;
+  background-color: #fbd46d;
+  height: 4rem;
   float: right;
-  margin: -3ch 6ch 0 0;
+  margin: -4ch 3ch 0 0;
+  border-radius: 43%;
+}
+
+.image img {
+  float: right;
+  margin: 5px 1ch 0 0 !important;
+  width: 2.8rem;
 }
 
 .width p {
