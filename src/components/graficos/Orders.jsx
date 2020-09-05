@@ -57,7 +57,7 @@ const data = [
   },
 ];
 
-class NivoChart extends React.Component {
+class prejuízo extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.state = {};
@@ -98,11 +98,11 @@ class NivoChart extends React.Component {
           legendPosition: "middle",
         }}
         lineWidth={3}
-        colors={{ scheme: "dark2" }}
+        colors={{ scheme: "red_yellow_green" }}
         enablePoints={false}
         pointColor={{ theme: "background" }}
         pointBorderWidth={2}
-        pointBorderColor={{ from: "serieColor" }}
+        pointBorderColor={{ from: "red" }}
         pointLabel="y"
         pointLabelYOffset={-12}
         enableArea={true}
@@ -118,4 +118,4 @@ class NivoChart extends React.Component {
   }
 }
 
-export default NivoChart;
+export default prejuízo;

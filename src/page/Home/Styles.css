@@ -44,7 +44,7 @@
 .Premium {
   width: 13rem;
   height: 20rem;
-  margin: 14rem 0 0 1ch;
+  margin: 14rem 1ch 0 1ch;
   border-radius: 2rem;
   background-color: #fbecec;
   display: flex;
@@ -80,6 +80,13 @@
   font-size: 0.9rem;
 }
 
+.grafico2 {
+  display: flex;
+  float: left;
+  position: absolute;
+  margin: 35rem 0 0 59ch;
+  font-size: 0.9rem;
+}
 .EarningsMonth {
   width: 19rem;
   height: 15rem;
@@ -110,5 +117,19 @@
   width: 19rem;
   height: 18rem;
   position: absolute;
-  margin: -9rem 0 0 0;
+  margin: -10rem 0 0 0;
+}
+
+.graficoOrders {
+  width: 19rem;
+  height: 18rem;
+  position: absolute;
+  margin: -10rem 0 0 0;
+}
+
+.ganhosQuadro {
+  width: 20rem;
+  height: 20rem;
+  background-color: #fff;
+  float: left;
 }

@@ -12,6 +12,7 @@ import binoculo from "../../assets/image/icons8-binoculars-52.png";
 import email from "../../assets/image/icons8-secured-letter-64.png";
 import Get from "../../components/orders/Index";
 import Gráfico from "../../components/graficos/Index";
+import Orders from "../../components/graficos/Orders";
 
 function Home() {
   return (
@@ -52,7 +53,6 @@ function Home() {
         image={email}
         text="product ..."
       />
-
       <div className="grafico">
         <h1>Current Balance</h1>
         <div className="EarningsMonth">
@@ -63,6 +63,21 @@ function Home() {
             <Gráfico />
           </div>
         </div>
+      </div>
+
+      <div className="grafico2">
+        <div className="EarningsMonth">
+          <h1>total orders this Month </h1>
+          <p className="simbolo">$</p>
+          <p>600.000</p>
+          <div className="graficoOrders">
+            <Orders />
+          </div>
+        </div>
+      </div>
+
+      <div className="ganhosQuadro">
+        <h1>.</h1>
       </div>
     </div>
   );
