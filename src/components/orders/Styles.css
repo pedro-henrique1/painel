@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 11ch;
+  grid-auto-rows: 273px;
 }
 
 .width h1 {

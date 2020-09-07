@@ -13,8 +13,12 @@ import email from "../../assets/image/icons8-secured-letter-64.png";
 import Get from "../../components/orders/Index";
 import Gráfico from "../../components/graficos/Index";
 import Orders from "../../components/graficos/Orders";
+import Ganho from "../../components/graficos/Ganhos";
 
 function Home() {
+  function click() {
+    console.log("wello");
+  }
   return (
     <div className="layout">
       <div className="Menu">
@@ -75,9 +79,21 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <div className="ganhosQuadro">
-        <h1>.</h1>
+      <div className="rendaTotal">
+        <h1>Earnings Summary</h1>
+        <div className="ganhosQuadro">
+          <div className="graficosGanhos">
+            <Ganho />
+          </div>
+          <div className="button">
+            <button className="bg-bottom">One Week</button>
+            <button className="bg-bottom">One Month</button>
+            <button className="bg-bottom">three Month</button>
+            <button className="bg-bottom active" onClick={click}>
+              One year
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
