@@ -1,16 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import ReactDOM from "react-dom";
-
-// import Page from "./page/Index";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import Home from "./page/Home/index";
 
 function Rotas() {
-  ReactDOM.render(
-    <Switch>
+  return (
+    <BrowserRouter>
       <Route path="/home" component={Home}></Route>
-    </Switch>
+    </BrowserRouter>
   );
 }
 
