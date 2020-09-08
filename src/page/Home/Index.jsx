@@ -1,4 +1,6 @@
+/* eslint-disable react/style-prop-object */
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "./Styles.css";
 import "../../index.css";
@@ -17,31 +19,79 @@ import Ganho from "../../components/graficos/Ganhos";
 
 function Home() {
   function click() {
-    console.log("wello");
+    console.log("hello");
   }
   return (
     <div className="layout">
       <div className="Menu">
         <ul>
           <img src={IconHome} alt="" />
-          <li>Home</li>
+          <li>
+            <NavLink
+              to="/home"
+              activeStyle={{
+                color: "#fff",
+                backgroundColor: "transparent",
+                textDecoration: "none",
+              }}
+            >
+              Home
+            </NavLink>
+          </li>
           <img className="orders" src={IconOrders} alt="" />
-          <li>Orders</li>
+          <li>
+            <NavLink
+              to="/orders"
+              activeStyle={{
+                color: "#fff",
+                backgroundColor: "transparent",
+                textDecoration: "none",
+              }}
+            >
+              Orders
+            </NavLink>
+          </li>
           <img className="orders" src={IconCustomer} alt="" />
-          <li>Customers</li>
+          <li>
+            <NavLink
+              to="/Customers"
+              activeStyle={{
+                color: "#fff",
+                backgroundColor: "transparent",
+                textDecoration: "none",
+              }}
+            >
+              Customers
+            </NavLink>
+          </li>
           <img className="orders" src={IconShop} alt="" />
-          <li>Products</li>
+          <li>
+            <NavLink
+              to="/Products"
+              activeStyle={{
+                color: "#fff",
+                backgroundColor: "transparent",
+                textDecoration: "none",
+                width: 50,
+              }}
+            >
+              Products
+            </NavLink>
+          </li>
           <img className="analytic" src={IconAnalytic} alt="" />
-          <li>Analytics</li>
+          <li>
+            <NavLink
+              to="/Analytics"
+              activeStyle={{
+                color: "#fff",
+                backgroundColor: "transparent",
+                textDecoration: "none",
+              }}
+            >
+              Analytics
+            </NavLink>
+          </li>
         </ul>
-        <div className="Premium">
-          <p className="subtitle">
-            Set <strong> Business</strong> account to explore premium features
-          </p>
-          <button type="button" className="buttonUpdate">
-            Update for Business
-          </button>
-        </div>
       </div>
       <div className="title">Overview</div>
       <Get className="image" title="90" image={sacola} text="product ..." />

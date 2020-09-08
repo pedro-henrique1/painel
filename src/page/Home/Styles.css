@@ -16,6 +16,7 @@
   background-color: #d6e0f0;
   margin: 1rem 0 0 1rem;
   border-radius: 2rem;
+  position: absolute;
 }
 
 .Menu ul {
@@ -32,43 +33,24 @@
   margin: 2.4rem 0 0 1.7rem;
   justify-items: center;
   align-items: center;
+  text-decoration: none;
+}
+
+.Menu ul li a {
+  color: rgb(49, 43, 43);
+  text-decoration: none;
 }
 .orders {
   margin: 4ch 0 0 -1rem !important;
 }
 
 .analytic {
-  margin: 2% 0 0 -1rem !important;
-}
-
-.Premium {
-  width: 13rem;
-  height: 20rem;
-  margin: 14rem 1ch 0 1ch;
-  border-radius: 2rem;
-  background-color: #fbecec;
-  display: flex;
-}
-
-.subtitle {
-  margin: 14rem 0 0 7px;
-}
-
-.buttonUpdate {
-  position: absolute;
-  margin: 34ch 0 0 3ch;
-  width: 10rem;
-  height: 4ch;
-  border-radius: 10px;
-  background-color: #f67280;
-  border-color: #f67280;
-  color: #fff;
-  font-size: 0.9rem;
+  margin: 16% 0 0 -1rem !important;
 }
 
 .title {
   display: flex;
-  margin: 2rem 0 0 2rem;
+  margin: 2rem 0 0 17rem;
   font-size: 1.8rem;
 }
 

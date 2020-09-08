@@ -27,12 +27,12 @@
 }
 
 .buttonLogin {
-  margin: -6rem 0 0 8rem;
-  display: flex;
   width: 10rem;
   height: 2rem;
-  align-items: center;
   background-color: #6ebfb5;
   border-color: #6ebfb5;
+  margin: -6rem 0 0 8rem;
+  align-items: center;
+  display: flex;
   border-radius: 5px;
 }
