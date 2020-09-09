@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./Styles.css";
 
@@ -19,11 +19,9 @@ function login() {
         />
       </div>
       <div>
-        <BrowserRouter>
-          <Link to="/home">
-            <button className="buttonLogin">login</button>
-          </Link>
-        </BrowserRouter>
+        <Link to="/home">
+          <button className="buttonLogin">login</button>
+        </Link>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./Styles.css";
 import "../../index.css";
@@ -27,69 +27,23 @@ function Home() {
         <ul>
           <img src={IconHome} alt="" />
           <li>
-            <NavLink
-              to="/home"
-              activeStyle={{
-                color: "#fff",
-                backgroundColor: "transparent",
-                textDecoration: "none",
-              }}
-            >
-              Home
-            </NavLink>
+            <Link to="/home">Home</Link>
           </li>
           <img className="orders" src={IconOrders} alt="" />
           <li>
-            <NavLink
-              to="/orders"
-              activeStyle={{
-                color: "#fff",
-                backgroundColor: "transparent",
-                textDecoration: "none",
-              }}
-            >
-              Orders
-            </NavLink>
+            <Link to="/orders">Orders</Link>
           </li>
           <img className="orders" src={IconCustomer} alt="" />
           <li>
-            <NavLink
-              to="/Customers"
-              activeStyle={{
-                color: "#fff",
-                backgroundColor: "transparent",
-                textDecoration: "none",
-              }}
-            >
-              Customers
-            </NavLink>
+            <Link to="/customers">Customers</Link>
           </li>
           <img className="orders" src={IconShop} alt="" />
           <li>
-            <NavLink
-              to="/Products"
-              activeStyle={{
-                color: "#fff",
-                backgroundColor: "transparent",
-                textDecoration: "none",
-                width: 50,
-              }}
-            >
-              Products
-            </NavLink>
+            <Link to="/products">Products</Link>
           </li>
           <img className="analytic" src={IconAnalytic} alt="" />
           <li>
-            <NavLink
-              to="/Analytics"
-              activeStyle={{
-                color: "#fff",
-                backgroundColor: "transparent",
-                textDecoration: "none",
-              }}
-            >
-              Analytics
-            </NavLink>
+            <Link to="/analytics">Analytics</Link>
           </li>
         </ul>
       </div>

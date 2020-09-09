@@ -109,6 +109,8 @@ class Ganho extends React.Component {
         pointLabel="y"
         pointLabelYOffset={-12}
         useMesh={true}
+        enableCrosshair={false}
+        isInteractive={false}
         legends={[]}
         motionStiffness={75}
       />
