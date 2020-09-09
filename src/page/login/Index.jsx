@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -17,8 +18,6 @@ function login() {
           type="text"
           placeholder="Digite seu senha"
         />
-      </div>
-      <div>
         <Link to="/home">
           <button className="buttonLogin">login</button>
         </Link>

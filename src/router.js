@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Redirect } from "react-router-dom";
 
 import Home from "./page/Home/Index";
 import Login from "./page/login/Index";
@@ -17,6 +17,7 @@ function Rotas() {
       <Route path="/customers" component={Customers}></Route>
       <Route path="/products" component={Products}></Route>
       <Route path="/analytics" component={Analytics}></Route>
+      <Redirect to="/" />
     </BrowserRouter>
   );
 }
