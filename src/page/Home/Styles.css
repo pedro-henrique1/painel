@@ -4,7 +4,7 @@
   height: 57rem;
   display: flex;
   background-color: #f1f3f8;
-  justify-items: center;
+  box-sizing: border-box;
   border-radius: 15px;
   margin-top: -9rem;
   font-family: "Ubuntu", sans-serif;
@@ -155,4 +155,22 @@
   color: #fff;
   background-color: #3282b8;
   border-color: #3282b8;
+}
+button {
+  outline: none;
+}
+@media (min-width: 100px) and (max-width: 1000px) {
+  html {
+    background-color: #fff;
+  }
+}
+@media (min-width: 800px) and (max-width: 2000px) {
+  .layout {
+    margin: 0 0 0 -4rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 600px) {
+  .layout {
+    /* margin: 0; */
+  }
 }

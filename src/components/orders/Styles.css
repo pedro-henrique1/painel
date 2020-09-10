@@ -47,3 +47,8 @@
 .email {
   background-color: #a2de96;
 }
+
+@media (min-width: 768px) and (max-width: 600px) {
+  .width {
+  }
+}
