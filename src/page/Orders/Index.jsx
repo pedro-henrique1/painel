@@ -1,6 +1,6 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./Orders.css";
 
@@ -134,6 +134,70 @@ function Orders() {
             </tr>{" "}
             <tr>
               <td>15</td>
+              <td>1 jan 2010</td>
+              <td>maria</td>
+              <td>Paid</td>
+              <td>Fulfillment</td>
+              <td>$323.00</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>1 jan 2010</td>
+              <td>maria</td>
+              <td>Paid</td>
+              <td>Fulfillment</td>
+              <td>$323.00</td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td>1 jan 2010</td>
+              <td>maria</td>
+              <td>Paid</td>
+              <td>Fulfillment</td>
+              <td>$323.00</td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>1 jan 2010</td>
+              <td>maria</td>
+              <td>Paid</td>
+              <td>Fulfillment</td>
+              <td>$323.00</td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td>1 jan 2010</td>
+              <td>maria</td>
+              <td>Paid</td>
+              <td>Fulfillment</td>
+              <td>$323.00</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>1 jan 2010</td>
+              <td>maria</td>
+              <td>Paid</td>
+              <td>Fulfillment</td>
+              <td>$323.00</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>1 jan 2010</td>
+              <td>maria</td>
+              <td>Paid</td>
+              <td>Fulfillment</td>
+              <td>$323.00</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>1 jan 2010</td>
+              <td>maria</td>
+              <td>Paid</td>
+              <td>Fulfillment</td>
+              <td>$323.00</td>
+            </tr>
+            <tr>
+              <td>20</td>
               <td>1 jan 2010</td>
               <td>maria</td>
               <td>Paid</td>

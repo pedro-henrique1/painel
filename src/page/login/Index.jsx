@@ -19,7 +19,7 @@ function login() {
           placeholder="Digite seu senha"
         />
         <Link to="/home">
-          <button className="buttonLogin">login</button>
+          <button className="buttonLogin">Login</button>
         </Link>
       </div>
     </div>

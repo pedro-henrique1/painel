@@ -13,6 +13,7 @@
   font-family: "Roboto", sans-serif;
   margin-top: 7rem;
   padding: 1%;
+  outline: none;
 }
 
 .inputSenha {
@@ -21,6 +22,7 @@
   font-family: "Roboto", sans-serif;
   margin-top: 3rem;
   padding: 1%;
+  outline: none;
   border-color: 1px solid #a9aab1;
 }
 
@@ -36,8 +38,8 @@
   justify-content: center;
 }
 
-.buttonLogin a {
-  text-decoration: none;
+a {
+  text-decoration: none !important;
 }
 @media (min-width: 1100px) and (max-width: 2860px) {
   .Login {
@@ -50,7 +52,7 @@
     margin-left: -11rem;
   }
 }
-@media (min-width: 393px) and (max-width: 360px) {
+@media (min-width: 100px) and (max-width: 400px) {
   .Login {
     margin-left: -15rem;
   }

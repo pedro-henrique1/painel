@@ -133,7 +133,7 @@
 .button {
   width: 85ch;
   height: 5rem;
-  display: inline-block;
+  display: flex;
   background-color: #dbe3e5;
   border-radius: 1rem;
   margin: 0px 7px;
