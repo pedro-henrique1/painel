@@ -58,8 +58,11 @@
   display: flex;
   float: left;
   position: absolute;
-  margin: 18rem 0 0 17rem;
+  margin: 18rem 0 0 21rem;
   font-size: 0.9rem;
+}
+.grafico h1 {
+  display: flex;
 }
 
 .grafico2 {
@@ -99,7 +102,7 @@
   width: 19rem;
   height: 18rem;
   position: absolute;
-  margin: -10rem 0 0 0;
+  margin: -11rem 0 0 0;
 }
 
 .graficoOrders {
@@ -160,17 +163,87 @@ button {
   outline: none;
 }
 @media (min-width: 100px) and (max-width: 1000px) {
-  html {
+  html,
+  body {
     background-color: #fff;
   }
 }
-@media (min-width: 800px) and (max-width: 2000px) {
+@media (max-width: 1000px) {
+  .layout {
+    background-color: #fff;
+  }
+  .Menu {
+    height: 51rem;
+    left: 0;
+    top: 0;
+    margin: 1rem 0 0 1rem;
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
   .layout {
     margin: 0 0 0 -4rem;
   }
+  .Menu ul {
+    font-size: 1.9rem;
+  }
+  .Menu ul img {
+    width: 2.5rem;
+    margin-left: -2ch;
+  }
+  .orders {
+    margin: 3rem 0 0 -2rem !important;
+  }
+  .analytic {
+    margin: 3pc 0 0 -2rem !important;
+  }
+  .Menu ul li {
+    margin-top: 3rem;
+  }
+  .title {
+    display: flex;
+    margin: -8rem 0 0 6rem;
+  }
+  .p1 {
+    margin: -11rem 0 0 2rem;
+  }
+  .width {
+    background-color: #eeeeee !important;
+  }
+  .grafico,
+  .grafico2 {
+    top: 0;
+    margin: 16rem 0 0 11rem;
+  }
+  .EarningsMonth {
+    background-color: #eeeeee !important;
+  }
+  .EarningsMonth h1 {
+    color: #000;
+  }
+  .grafico2 {
+    margin: 33rem 0 0 21rem;
+  }
+  .rendaTotal {
+    margin: 10rem 0 0 30rem;
+    background-color: #eeeeee !important;
+  }
+  .bg-bottom {
+    font-size: 1.2rem;
+  }
+  .grafico,
+  .grafico2 h1 {
+    font-size: 1.5rem;
+  }
+  .graficosGanhos text {
+    font-size: 2.4rem;
+  }
+  .graficoOrders {
+    margin-top: -12rem;
+  }
 }
-@media (min-width: 768px) and (max-width: 600px) {
-  .layout {
-    /* margin: 0; */
+
+@media (min-width: 100px) {
+  .grafico h1 {
+    font-size: 22px;
   }
 }
