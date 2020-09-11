@@ -179,7 +179,7 @@ button {
     margin: 1rem 0 0 1rem;
   }
 }
-@media (min-width: 800px) and (max-width: 1000px) {
+@media (min-width: 700px) and (max-width: 1000px) {
   .layout {
     margin: 0 0 0 -4rem;
   }
