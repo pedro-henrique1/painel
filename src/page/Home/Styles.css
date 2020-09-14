@@ -241,6 +241,10 @@ button {
     margin-top: -12rem;
   }
 }
+@media (max-width: 750px) and (min-width: 500px) {
+  .width {
+  }
+}
 
 @media (min-width: 100px) {
   .grafico h1 {
