@@ -1,6 +1,9 @@
 <img src="github/Sem título.png" align="center">
 
-# painel feito em react
+<br>
+<br>
+
+<h1 align="center">Painel feito em react<h1>
 
 <br>
 
