@@ -1,6 +1,5 @@
 {
   "name": "painel",
-  "version": "0.1.0",
   "private": false,
   "dependencies": {
     "@nivo/bar": "^0.62.0",
